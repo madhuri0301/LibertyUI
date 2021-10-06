@@ -1,0 +1,85 @@
+<div class="header" fxLayout="row" fxLayoutAlign=" center">
+  <div class="img">
+    <img src="assets/logo-inverse.svg" class="img" alt="">
+  </div>
+
+  <div class="center searchBar " fxLayout="row" fxLayoutAlign="start center">
+    <div class="container" fxLayoutAlign="center center">
+      <button class="button">
+        <mat-icon>search</mat-icon>
+      </button>
+    </div>
+    <input type="text" placeholder="Search" style="background-color: transparent; border: none;">
+  </div>
+
+  <div class="bellicon">
+    <img src="assets/notifications_black_24dp.svg" class="icon" alt="">
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="space-around" ngClass="log-out-icon">
+    <button class="tp" mat-mini-fab color="" matTooltip="Log Out" mat-icon-button [matMenuTriggerFor]="profile">
+      <img src="assets/face1.jpg" class="img2" alt="">
+    </button>
+
+    <mat-menu #profile="matMenu">
+
+      <!-- <mat-card-header>
+        <img mat-card-avatar src="assets/face1.jpg" class="img2" style="margin-left: 35px;">
+        
+      </mat-card-header> -->
+
+      <button class="next-button" mat-button style="margin-left: 18px;">
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+  </div>
+</div>
+
+
+<div class="all-buttons">
+  <section>
+
+    <div class="example-button-row" fxLayout="row">
+      <div>
+        <button class="btn" mat-stroked-button color="primary"><img src="assets/monitor_black_24dp.svg"
+            class="icon">DASHBOARD</button>
+      </div>
+      <div>
+        <button class="btn" mat-stroked-button color="accent"><img src="assets/explore_black_24dp.svg"
+            class="icon">WIDGETS</button>
+      </div>
+      <div class="dropdown">
+        <button class="btn1" mat-stroked-button color="warn">UI ELEMENTS</button>
+        <div class="dropdown-content ">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="btn1" mat-stroked-button color="primary">PAGES</button>
+        <div class="dropdown-content content1">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="btn1" mat-stroked-button>FORMS</button>
+        <div class="dropdown-content content2">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="btn1" mat-stroked-button color="primary">APPS</button>
+        <div class="dropdown-content content3">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
