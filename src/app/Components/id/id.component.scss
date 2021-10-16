@@ -3,7 +3,8 @@
     margin-top: 20px;
 }
 .sec3{
-    width: 91.50%;
+    // width: 91.50%;
+    width: 1125px;
     height: 65px;
     background-color: white;
     border: 1px solid #ddd;
@@ -18,15 +19,36 @@
 .tag1{
     font-size: 15px;
     font-weight: bold;
+    text-align: center;
+    width: 150px;
+    margin-top: 18px;
 }
 .tag{
-    font-size: 15px;
+    font-size: 12px;
     // align-items: center; 
+    text-align: center;
+    width: 150px;
+    margin-top: 18px;
+    
 }
 .tag2{
-    font-size: 15px;
+    font-size: 12px;
     // align-items: center;  
     // margin-left: -20px;
+    text-align: center;
+    width: 150px;
+    margin-top: 18px;
 
 }
+@media only screen and (max-width: 599px){
+    .section3{
+        margin-left: 10px;
+        // overflow-x: scroll;
+        overflow:scroll;
+    }
+//     .sec3{
+//         overflow-x: auto;
+//     }
+// }
 
+}

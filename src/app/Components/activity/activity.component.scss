@@ -1,0 +1,246 @@
+.section2{
+    margin-left: 120px;
+}
+.sec2{
+    width: 360px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    // margin-left: 40px;
+}
+.maria{
+    border-radius: 200px;
+    height: 85px;
+    width: 85px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.name{
+    margin-left: 105px;
+    font-size: 22px;
+    // font-weight:;
+}
+.position{
+    font-size: 15px;
+    margin-left: 135px;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+.paragraph{
+    font-size: 15px;
+    margin-left: 30px;
+    
+}
+.btn{
+    background-color: #464de4;
+    border-color: #464de4;
+    color: white;
+    height: 35px;
+    width: 85px;
+    margin-left: 130px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.numbers{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.count1{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.caption1{
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.caption2{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 20px;
+    // font-weight: 300px bold  ;
+    opacity: 0.7;
+}
+.count2{
+    font-size: 40px;
+    margin-left: 20px;
+    // font-weight: bold 200px;
+    margin-top: -15px;
+    opacity: 0.7;
+}
+.line{
+    margin-left: 20px;
+}
+.count3{
+    margin-left: 80px;
+}
+.caption3{
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: -20px;
+    opacity: 0.7;
+}
+.numbers2{
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.count-no{
+    margin-left: 90px;
+}
+.numbers3{
+    margin-top: 250px;
+}
+
+.section1{
+    margin-left: 120px;
+    // margin-bottom: 100px;
+}
+.sec1{
+    width: 1122px;
+//     // height: 420px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+//     // margin-left: 40px;
+    margin-bottom: 50px;
+}
+.caption{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.cap{
+    font-size: 15px;
+    margin: -20px 0px 0px 29px;
+}
+.james{
+    border-radius: 200px;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+.james-text{
+        margin-left: 40px;
+}
+.J-name{
+    font-weight: 500;
+    margin-left: -20px;
+}
+.name{
+    margin-left: 40px;
+    font-size: 15px;
+}
+.description{
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.id{
+    font-size: 14px;
+    margin-left: 12px;
+    font-weight: lighter ;
+}
+
+.divider{
+    width: 90%;
+    margin: 0px 0px 0px 20px;
+}
+// .description2{
+//     font-weight: lighter;
+//     font-size: 14px;
+//     margin-left: 50px;
+//     margin-top: -30px;
+// }
+.description3{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: -20px;
+    opacity: 0.6;
+}
+.description4{
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: -20px;
+    opacity: 0.6;
+}
+.p2{
+    margin-top: 20px;
+}
+.p3{
+    margin-top: 8px;
+}
+.btn{
+    background-color: #464de4;
+    border-color: #464de4;
+    color: white;
+    height: 35px;
+    width: 85px;
+    margin-left: 230px;
+    border-radius: 5px;
+    font-size: 15px;
+    // margin-top: 40px;
+}
+@media only screen and (max-width: 599px){
+    .section1{
+        margin-left: 10px;
+    }
+    .p2{
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: wrap;
+        
+    }
+    .description2{
+        margin-left: 5px;
+    }
+    // .james-info{
+    //     display: flex;
+    //     flex-direction: column;
+    //     margin-left: 5px;
+    //     // flex-wrap: wrap;
+    // }
+    .sec1{
+        width: 98%;
+        // height: 520px;
+    }
+    .name{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .id{
+        margin-top: -47px;
+        margin-left: 90px;
+    }
+    .description{
+        margin-top: -49px;
+        margin-left: 150px;
+    }
+    .description2{
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    .james-text{
+        overflow:hidden;
+        margin-top: 20px;
+        margin-left: 30px;
+        word-wrap: normal;
+        width: auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 599px){
+    .section2{
+        margin-left: 10px;
+    }
+    .sec2{
+        width: 97.10%;
+    }
+}

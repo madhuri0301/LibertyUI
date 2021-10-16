@@ -1,5 +1,5 @@
 <div class="header" fxLayout="row" fxLayoutAlign=" center">
-  <div class="img">
+  <div class="img" fxHide.xs>
     <img src="assets/logo-inverse.svg" class="img" alt="">
   </div>
 
@@ -36,16 +36,15 @@
 </div>
 
 
-<div class="all-buttons">
+<div class="all-buttons" fxHide.lt-md>
   <section>
 
     <div class="example-button-row" fxLayout="row">
       <div>
-        <button class="btn" mat-stroked-button color="primary"><img src="assets/monitor_black_24dp.svg"
-            class="icon">DASHBOARD</button>
+        <button class="btn" mat-stroked-button color="primary" routerLink="/dashboard">DASHBOARD</button>
       </div>
       <div>
-        <button class="btn" mat-stroked-button color="accent"><img src="assets/explore_black_24dp.svg"
+        <button class="btn" mat-stroked-button color="accent" routerLink="/widgets"><img src="assets/explore_black_24dp.svg"
             class="icon">WIDGETS</button>
       </div>
       <div class="dropdown">

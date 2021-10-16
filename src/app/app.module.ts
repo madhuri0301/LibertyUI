@@ -19,6 +19,16 @@ import { UsersComponent } from './Components/users/users.component';
 import { DeveloperComponent } from './Components/developer/developer.component';
 import { IDComponent } from './Components/id/id.component';
 import { ChartComponent } from './Components/chart/chart.component';
+import { TicketsComponent } from './Components/tickets/tickets.component';
+import { GraphComponent } from './Components/graph/graph.component';
+import { WidgetsComponent } from './Components/widgets/widgets.component';
+import { StatisticsComponent } from './Components/statistics/statistics.component';
+import { ThomasComponent } from './Components/thomas/thomas.component';
+import { FollowersComponent } from './Components/followers/followers.component';
+import { MariaWidgetsComponent } from './Components/maria-widgets/maria-widgets.component';
+import { ActivityComponent } from './Components/activity/activity.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 
 @NgModule({
@@ -31,7 +41,15 @@ import { ChartComponent } from './Components/chart/chart.component';
          UsersComponent,
          DeveloperComponent,
          IDComponent,
-         ChartComponent
+         ChartComponent,
+         TicketsComponent,
+         GraphComponent,
+         WidgetsComponent,
+         StatisticsComponent,
+         ThomasComponent,
+         FollowersComponent,
+         MariaWidgetsComponent,
+         ActivityComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +61,11 @@ import { ChartComponent } from './Components/chart/chart.component';
     FlexLayoutModule,
     MatCardModule,
     MatMenuModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCheckboxModule
+   
+   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

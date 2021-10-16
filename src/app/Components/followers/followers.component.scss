@@ -1,0 +1,79 @@
+.section1{
+    margin-left: 122px;
+}
+.sec1{
+    width: 358px;
+    height: 130px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    // margin-left: 40px;
+}
+.caption{
+    font-size: 15px;
+    font-weight: 500;
+    // margin-left: -60px;
+    // margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.count{
+    // margin-top: -20px;
+    // margin-left: 110px;
+    font-size: 30px;
+}
+    
+    .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+      } 
+.maria2{
+    margin-left: 20px;
+}
+.info{
+    margin-left: 20px;
+}
+.mail{
+    font-size: 14px;
+    margin-left: 63px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+.mail1{
+    font-size: 14px;
+    margin-left: 73px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+.mail2{
+    font-size: 14px;
+    margin-left: 90px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+// .mail1{
+//     margin-top: -20px;
+//     font-size: 14px;
+//     font-weight: lighter;
+//     opacity: 0.7;
+//     margin-left: 24px;
+// }
+.prof{
+    margin-left: -45px;
+    font-size: 13px;
+}
+@media only screen and (max-width: 599px){
+    .section1{
+        margin-left: 10px;
+    }
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .sec1{
+        width: 170px;
+    }
+    
+}
