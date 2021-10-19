@@ -28,6 +28,10 @@ import { FollowersComponent } from './Components/followers/followers.component';
 import { MariaWidgetsComponent } from './Components/maria-widgets/maria-widgets.component';
 import { ActivityComponent } from './Components/activity/activity.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { LineChartComponent } from './Components/line-chart/line-chart.component';
+import { SplinechartComponent } from './Components/splinechart/splinechart.component';
+
+
 
 
 
@@ -49,7 +53,11 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
          ThomasComponent,
          FollowersComponent,
          MariaWidgetsComponent,
-         ActivityComponent
+         ActivityComponent,
+         LineChartComponent,
+         SplinechartComponent,
+         
+         
   ],
   imports: [
     BrowserModule,
