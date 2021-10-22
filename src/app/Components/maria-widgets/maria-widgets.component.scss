@@ -163,11 +163,17 @@
 .example-margin{
     font-weight: lighter;
 }
+.fa-times-circle{
+    color: red;
+}
 @media only screen and (max-width: 599px){
     .section2{
         margin-left: 10px;
     }
     .sec2{
         width: 97.10%;
+    }
+    .divider1{
+        width: 260px;
     }
 }

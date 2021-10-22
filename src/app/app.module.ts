@@ -35,6 +35,7 @@ import { SplinechartComponent } from './Components/splinechart/splinechart.compo
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,7 +71,8 @@ import { SplinechartComponent } from './Components/splinechart/splinechart.compo
     MatCardModule,
     MatMenuModule,
     MatDividerModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    
    
    
     

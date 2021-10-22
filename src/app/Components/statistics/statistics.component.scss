@@ -37,16 +37,8 @@
     font-weight: lighter;
 }
 @media only screen and (max-width: 599px){
-    .section1{
-        margin-left: 10px;
-    }
-    .boxes{
-        display: flex;
-        flex-wrap: wrap;
-
-    }
     .sec1{
-        width: 170px;
+        margin-left: -115px;
+        width: 340px;
     }
-    
 }

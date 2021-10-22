@@ -9,6 +9,14 @@
     margin-top: 20px;
     // margin-left: 40px;
 }
+.sec2{
+    width: 358px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    // margin-left: 40px;
+}
 .caption{
     font-size: 15px;
     font-weight: lighter;
@@ -54,14 +62,19 @@
 @media only screen and (max-width: 599px){
     .section1{
         margin-left: 10px;
+        margin-right: 10px;
     }
     .boxes{
         display: flex;
         flex-wrap: wrap;
+        // width: 360px;
 
     }
-    .sec1{
-        width: 170px;
-    }
+    // .sec1{
+    //     margin-left: 0px;
+    // }
+    .sec2{
+        width: 340px;
     
+    }
 }

@@ -2,8 +2,9 @@
 
     <div class="sec1">
         <h1 class="caption">Manage Tickets</h1>
+        <div fxLayout="row">
 
-        <div class="p2" fxLayout="column">
+        <div class="p2" fxLayout="column" >
             <div class="james-info" fxLayout="row" fxLayout.xs="column">
                 <img src="assets/face1.jpg" class="james">
                 <p class="james-text"><span class="J-name">James : </span> [#23047] Donec rutrum congue leo eget
@@ -24,6 +25,10 @@
                 <h2 class="description4">Due in : 2 Days</h2>
             </div>
         </div>
+        <div fxHide.xs>
+            <button class="btn b1" mat-raised-button color="primary">Manage</button>
+        </div>
+    </div>
 
         <mat-divider class="divider"></mat-divider>
 
@@ -32,50 +37,64 @@
         <!-- <div class="img-sec">
         <img src="assets/face1.jpg">
      </div> -->
-        <div class="p2" fxLayout="column">
-            <div class="james-info" fxLayout="row" fxLayout.xs="column">
-                <img src="assets/stella.jpg" class="james">
-                <p class="james-text"><span class="J-name">James : </span> [#23047] Donec rutrum congue leo eget
-                    malesuada.</p>
-                <!-- <h2 class="name">Stella :</h2>
+        <div fxLayout="row">
+            <div class="p2" fxLayout="column">
+                <div class="james-info" fxLayout="row" fxLayout.xs="column">
+                    <img src="assets/stella.jpg" class="james">
+                    <p class="james-text"><span class="J-name">James : </span> [#23047] Donec rutrum congue leo eget
+                        malesuada.</p>
+                    <!-- <h2 class="name">Stella :</h2>
                 <h1 class="id">[#23135]</h1>
                 <h2 class="description">Curabitur aliquet quam id dui posuere blandit..</h2> -->
+                </div>
+
+                <div>
+                    <h2 class="description2" fxLayout="column">Pellentesque in ipsum id orci porta dapibus. Sed
+                        porttitor
+                        lectus nibh. Curabitur non nulla sit amet nisl..</h2>
+                </div>
+
+                <div class="des" fxLayout="row" fxHide.xs>
+                    <h2 class="description3">Last responded : 3 hours ago</h2>
+                    <h2 class="description4">Due in : 2 Days</h2>
+                </div>
             </div>
 
-            <div>
-                <h2 class="description2" fxLayout="column">Pellentesque in ipsum id orci porta dapibus. Sed porttitor
-                    lectus nibh. Curabitur non nulla sit amet nisl..</h2>
-            </div>
-
-            <div class="des" fxLayout="row" fxHide.xs>
-                <h2 class="description3">Last responded : 3 hours ago</h2>
-                <h2 class="description4">Due in : 2 Days</h2>
+            <div fxHide.xs>
+                <button class="btn b2" mat-raised-button color="primary">Manage</button>
             </div>
         </div>
 
         <mat-divider class="divider"></mat-divider>
 
-        <div class="p2" fxLayout="column">
-            <div class="james-info" fxLayout="row" fxLayout.xs="column">
-                <img src="assets/john.jpg" class="james">
-                <p class="james-text"><span class="J-name">James : </span> [#23047] Donec rutrum congue leo eget
-                    malesuada.</p>
-                <!-- <h2 class="name">John Doe :</h2>
+        <div fxLayout="row">
+
+            <div class="p2" fxLayout="column">
+                <div class="james-info" fxLayout="row" fxLayout.xs="column">
+                    <img src="assets/john.jpg" class="james">
+                    <p class="james-text"><span class="J-name">James : </span> [#23047] Donec rutrum congue leo eget
+                        malesuada.</p>
+                    <!-- <h2 class="name">John Doe :</h2>
                 <h1 class="id">[#23246]</h1>
                 <h2 class="description">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar..</h2>
                  -->
+                </div>
+
+                <div>
+                    <h2 class="description2" fxLayout="column">Nulla quis lorem ut libero malesuada feugiat. Proin eget
+                        tortor risus. Lorem ipsum dolor sit amet.
+
+                    </h2>
+                </div>
+
+                <div class="des" fxLayout="row" fxHide.xs>
+                    <h2 class="description3">Last responded : 3 hours ago</h2>
+                    <h2 class="description4">Due in : 2 Days</h2>
+                </div>
             </div>
 
-            <div>
-                <h2 class="description2" fxLayout="column">Nulla quis lorem ut libero malesuada feugiat. Proin eget
-                    tortor risus. Lorem ipsum dolor sit amet.
-
-                </h2>
-            </div>
-
-            <div class="des" fxLayout="row" fxHide.xs>
-                <h2 class="description3">Last responded : 3 hours ago</h2>
-                <h2 class="description4">Due in : 2 Days</h2>
+            <div fxHide.xs>
+                <button class="btn b3" mat-raised-button color="primary">Manage</button>
             </div>
         </div>
 
