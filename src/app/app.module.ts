@@ -11,6 +11,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
+import { HighchartsChartModule } from 'highcharts-angular';
 
 import { FooterComponent } from './Components/footer/footer.component';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
@@ -20,7 +21,7 @@ import { DeveloperComponent } from './Components/developer/developer.component';
 import { IDComponent } from './Components/id/id.component';
 import { ChartComponent } from './Components/chart/chart.component';
 import { TicketsComponent } from './Components/tickets/tickets.component';
-import { GraphComponent } from './Components/graph/graph.component';
+
 import { WidgetsComponent } from './Components/widgets/widgets.component';
 import { StatisticsComponent } from './Components/statistics/statistics.component';
 import { ThomasComponent } from './Components/thomas/thomas.component';
@@ -30,6 +31,8 @@ import { ActivityComponent } from './Components/activity/activity.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { LineChartComponent } from './Components/line-chart/line-chart.component';
 import { SplinechartComponent } from './Components/splinechart/splinechart.component';
+import { BarChartComponent } from './Components/bar-chart/bar-chart.component';
+
 
 
 
@@ -48,7 +51,7 @@ import { SplinechartComponent } from './Components/splinechart/splinechart.compo
          IDComponent,
          ChartComponent,
          TicketsComponent,
-         GraphComponent,
+      
          WidgetsComponent,
          StatisticsComponent,
          ThomasComponent,
@@ -57,7 +60,8 @@ import { SplinechartComponent } from './Components/splinechart/splinechart.compo
          ActivityComponent,
          LineChartComponent,
          SplinechartComponent,
-         
+         BarChartComponent,
+       
          
   ],
   imports: [
@@ -72,7 +76,7 @@ import { SplinechartComponent } from './Components/splinechart/splinechart.compo
     MatMenuModule,
     MatDividerModule,
     MatCheckboxModule,
-    
+    HighchartsChartModule
    
    
     
